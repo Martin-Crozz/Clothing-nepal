@@ -368,7 +368,7 @@ a.text-primary:hover {
 .content ul li::before {
   position: absolute;
   content: "\f363";
-  font-family: "themefisher-font";
+  font-family: "custom-font";
   font-size: 20px;
   left: 0;
   top: -3px;
