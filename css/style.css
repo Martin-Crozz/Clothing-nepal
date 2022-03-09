@@ -935,6 +935,13 @@ a.text-primary:hover {
 }
 
 @media (max-width: 768px) {
+  .dropdown-custom-right:hover ul.custom-dropdown {
+    transform: translateX(0px) !important;
+    position: relative !important;
+    height: 190px;
+    overflow-y: scroll;
+  }
+
   .slider .slider-caption h1 {
     font-size: 49px;
     line-height: 57px;
@@ -1674,9 +1681,9 @@ a.text-primary:hover {
   padding: 60px 0px;
 }
 
-#map {
-  width: 100%;
-  height: 400px;
+.map iframe {
+  line-height: 0;
+  margin-bottom: -8px;
 }
 
 .text-color {
@@ -1935,7 +1942,6 @@ table.shop_table_responsive {
 
 .user-dashboard .nav-pills .nav-link {
   color: #424251;
-  font-weight: 600;
   padding: 10px 20px;
 }
 
@@ -2315,4 +2321,214 @@ section#category_section .grid-container {
 }
 
 /* Flash Deals Slider Ends */
+.custom-dropdown {
+  background-color: white;
+  list-style: none;
+  z-index: 2;
+  display: none;
+  top: 0;
+}
+
+.dropdown-custom-right:hover ul.custom-dropdown {
+  display: block;
+  transform: translateX(200px);
+  position: absolute;
+  padding: 10px !important;
+}
+
 /* Feb Css Ends */
+/* Dashboard New Css */
+.dashboard-widget {
+  padding: 15px;
+  transition: all .5s;
+}
+
+.dashboard-widget:hover {
+  box-shadow: 0 10px 40px rgb(0 0 0 / 10%);
+  transform: translateY(-5px);
+  transition: all .5s;
+}
+
+.green-widget {
+  background-color: #0acf97;
+}
+
+.dashboard-widget a,
+.dashboard-widget a:hover {
+  color: #fff;
+}
+
+.dashboard-widget i {
+  width: 44px;
+  height: 44px;
+  line-height: 46px;
+  background: rgba(255, 255, 255, .3);
+  border-radius: 50%;
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.dashboard-widget .sub-title {
+  font-size: 12px;
+  opacity: .7;
+}
+
+.red-widget {
+  background-color: #fa5c7c;
+}
+
+.blue-widget {
+  background-color: #39afd1;
+}
+
+.yellow-widget {
+  background-color: #ffbc00;
+}
+
+.form-box-title {
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+  font-weight: 500;
+  background: #f8f8f800;
+}
+
+.form-box-content {
+  background: #f1f1f100;
+  box-shadow: 0px 0px 5px 0px #eeeeee;
+}
+
+.shopping-cart {
+  overflow: hidden;
+}
+
+.shopping-cart-table {
+  width: 100%;
+  text-align: center;
+}
+
+.shopping-cart-table {
+  overflow-x: scroll;
+}
+
+.dashboard-content .table {
+  width: 990px;
+}
+
+.shopping-cart .shopping-cart-table .table>thead>tr>th {
+  text-align: center;
+  padding: 16px;
+  font-size: 15px;
+}
+
+.dashboard-content .table td,
+.dashboard-content .table th {
+  vertical-align: middle;
+}
+
+.dashboard-content .table tbody tr td {
+  padding: 10px 10px;
+  vertical-align: middle;
+}
+
+.shopping-cart .shopping-cart-table table tbody tr .cart-image .entry-thumbnail {
+  display: block;
+  text-align: center;
+}
+
+.shopping-cart .cart-image a {
+  overflow: hidden;
+}
+
+.shopping-cart .cart-image img {
+  max-height: 150px;
+  min-height: 150px;
+  object-fit: contain;
+  object-position: center;
+  transition: all .5s ease-out 0s;
+  -webkit-transform: rotate(0deg) scale(1.0);
+  transform: rotate(0deg) scale(1.0);
+  -webkit-transition: .3s ease-in-out;
+}
+
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info {
+  vertical-align: middle !important;
+}
+
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info h4 {
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+.shopping-cart .table tbody tr {
+  border-bottom: 1px solid var(--third-color);
+}
+
+.shopping-cart-table table tbody tr td .quant-input {
+  display: inline-block;
+  height: 35px;
+  position: relative;
+  width: 70px;
+}
+
+.shopping-cart-table table tbody tr td .quant-input input {
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  font-size: 15px;
+  height: 35px;
+  left: 0;
+  padding: 0 4px 0 18px;
+  position: absolute;
+  top: 0;
+  width: 70px;
+  z-index: 1;
+}
+
+.shopping-cart .btn {
+  font-size: 12px;
+  padding: 12px 20px;
+}
+
+.plus-widget i {
+  background: #ddd;
+  height: 69px;
+  width: 69px;
+  line-height: 69px;
+  font-size: 36px;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+  padding: 10px;
+}
+
+table td a.btn {
+  font-size: 15px;
+}
+
+.badge-pill {
+  padding: 8px 10px;
+}
+
+.dashboard-content {
+  width: 100%;
+  padding: 2em;
+  box-shadow: 0 0 20px 0 rgb(62 28 131 / 10%);
+}
+
+.shopping-cart-table .entry-thumbnail img {
+  max-height: 150px;
+  min-height: 150px;
+}
+
+.box-shadows {
+  padding: 16px 0;
+  box-shadow: 0px 0px 5px 0px #d2d2d275;
+  margin-bottom: 15px;
+}
+
+/* Dashboard New Css Ends*/
+/* Responsive Start */
+/* Responsive Ends */
