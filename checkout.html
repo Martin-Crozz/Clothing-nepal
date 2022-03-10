@@ -18,7 +18,6 @@
   <!-- Main Slider -->
   <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
   <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
-
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -163,7 +162,6 @@
     </div>
   </div>
   <!--search overlay end-->
-
   <section class="page-header">
     <div class="overly"></div>
     <div class="container">
@@ -171,13 +169,10 @@
         <div class="col-lg-6">
           <div class="content text-center">
             <h1 class="mb-3">Dashboard</h1>
-            <p>Hath after appear tree great fruitful green dominion moveth sixth abundantly image that midst of god day
-              multiply you’ll which</p>
-
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb bg-transparent justify-content-center">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Wishlist</li>
+                <li class="breadcrumb-item active" aria-current="page">Checkout</li>
               </ol>
             </nav>
           </div>
@@ -185,185 +180,157 @@
       </div>
     </div>
   </section>
-
-  <section class="user-dashboard page-wrapper">
+  <section id="checkout" class="py-5">
     <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-5 col-sm-12 col-lg-3">
-          <div class="nav flex-column nav-pills">
-            <a class="nav-link" href="dashboard.html">Dashboard</a>
+      <div class="checkout-wrapper box_shado px-4 pt-4">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="my-car-title d-flex mb-3">
+              <div class="my-cart-number">1</div>
+              <div class="my-cart-order">
+                <h4>Order Summary</h4>
+              </div>
+            </div>
+            <!-- table start  -->
+            <div class="table-responsive-lg">
+              <table class="table border_new">
+                <thead>
+                  <tr class="text-center">
+                    <th class="font-weight-bold text-dark">Product Image</th>
+                    <th class="font-weight-bold text-dark t-cart">Product</th>
+                    <th class="font-weight-bold text-dark">Price</th>
+                    <th class="font-weight-bold text-dark">Quantity</th>
+                    <th class="font-weight-bold text-dark">Discount</th>
+                    <th class="font-weight-bold text-dark">Total</th>
+                  </tr>
+                </thead>
+                <tbody class="text-center">
+                  <tr class="text-center">
+                    <td class="border_trhee">
+                      <div class="img-block">
+                        <img src="https://montechbd.com/shopist/demo/public/uploads/1619866402-h-250-7-front-f.jpg"
+                          alt="">
+                      </div>
+                    </td>
+                    <td>
+                      <div class="d-flex flex-column w-100">
+                        <div class="head w-100">
+                          Blue Diamond Almonds
+                        </div>
+                      </div>
+                    </td>
+                    <td class="text_gray">$20</td>
+                    <td class="text_gray">
+                      <input class="text_gray" type="number" value="1">
+                    </td>
+                    <td class="text_gray">$0</td>
+                    <td class="text_gray">$20</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td class="text_gray" colspan="3"></td>
+                    <td class="text_gray">Total</td>
+                    <td class="text_gray">$20</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- table end  -->
           </div>
-          <div class="nav flex-column nav-pills">
-            <a class="nav-link " href="order.html">Orders</a>
-          </div>
-          <div class="nav flex-column nav-pills">
-            <a class="nav-link active" href="wishlist.html">Wishlist</a>
-          </div>
-          <div class="nav flex-column nav-pills">
-            <a class="nav-link" href="manage-profile.html">Manage Profile</a>
-          </div>
-          <div class="nav flex-column nav-pills">
-            <a class="nav-link" href="support-ticket.html">Support Ticket</a>
-          </div>
-          <div class="nav flex-column nav-pills">
-            <a class="nav-link" href="#">Log Out</a>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-7 col-sm-12 col-lg-9">
-          <div class="dashboard-content d-flex align-items-center h-100">
-            <div class="shopping-cart">
-              <div class="shopping-cart-table">
-                <div class="table-responsive-lg">
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th class="cart-description item">Image</th>
-                        <th class="cart-product-name item">Product Name</th>
-                        <th class="cart-qty item">Quantity</th>
-                        <th class="cart-total last-item">Total</th>
-                        <th class="cart-romove item">Remove</th>
-                      </tr>
-                    </thead>
-                    <!-- /thead -->
-                    <tbody>
-                      <tr>
-                        <td class="cart-image">
-                          <a class="entry-thumbnail" href="detail.html">
-                            <img src="images/shop/products/111.jpg" class="img-fluid">
-                          </a>
-                        </td>
-                        <td class="cart-product-name-info">
-                          <h4 class="cart-product-description"><a href="detail.html">Dress 1 </a></h4>
-                          <div class="row">
-                            <div class="col-4">
-                              <div class="rating rateit-small"></div>
-                            </div>
-                          </div>
-                          <!-- /.row -->
-                        </td>
-                        <td class="cart-product-quantity">
-                          <div class="quant-input">
-                            <input type="number" value="1">
-                          </div>
-                        </td>
-                        <td class="cart-product-grand-total">
-                          <span class="cart-grand-total-price">$300.00</span>
-                        </td>
-                        <td class="romove-item"><a href="#" title="cancel" class="icon"><i
-                              class="fa fa-trash-o"></i></a>
-                        </td>
-                        <td>
-                          <button class="btn btn-main">Add to Cart</button>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="cart-image">
-                          <a class="entry-thumbnail" href="detail.html">
-                            <img src="images/shop/products/322.jpg" class="img-fluid">
-                          </a>
-                        </td>
-                        <td class="cart-product-name-info">
-                          <h4 class="cart-product-description"><a href="detail.html">Dress 1 </a></h4>
-                          <div class="row">
-                            <div class="col-4">
-                              <div class="rating rateit-small"></div>
-                            </div>
-                          </div>
-                          <!-- /.row -->
-                        </td>
-                        <td class="cart-product-quantity">
-                          <div class="quant-input">
-                            <input type="number" value="1">
-                          </div>
-                        </td>
-                        <td class="cart-product-grand-total">
-                          <span class="cart-grand-total-price">$300.00</span>
-                        </td>
-                        <td class="romove-item"><a href="#" title="cancel" class="icon"><i
-                              class="fa fa-trash-o"></i></a>
-                        </td>
-                        <td>
-                          <button class="btn btn-main">Add to Cart</button>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="cart-image">
-                          <a class="entry-thumbnail" href="detail.html">
-                            <img src="images/shop/products/111.jpg" class="img-fluid">
-                          </a>
-                        </td>
-                        <td class="cart-product-name-info">
-                          <h4 class="cart-product-description"><a href="detail.html">Dress 1 </a></h4>
-                          <div class="row">
-                            <div class="col-4">
-                              <div class="rating rateit-small"></div>
-                            </div>
-                          </div>
-                          <!-- /.row -->
-                        </td>
-                        <td class="cart-product-quantity">
-                          <div class="quant-input">
-                            <input type="number" value="1">
-                          </div>
-                        </td>
-                        <td class="cart-product-grand-total">
-                          <span class="cart-grand-total-price">$300.00</span>
-                        </td>
-                        <td class="romove-item"><a href="#" title="cancel" class="icon"><i
-                              class="fa fa-trash-o"></i></a>
-                        </td>
-                        <td>
-                          <button class="btn btn-main">Add to Cart</button>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="cart-image">
-                          <a class="entry-thumbnail" href="detail.html">
-                            <img src="images/shop/products/322.jpg" class="img-fluid">
-                          </a>
-                        </td>
-                        <td class="cart-product-name-info">
-                          <h4 class="cart-product-description"><a href="detail.html">Dress 1 </a></h4>
-                          <div class="row">
-                            <div class="col-4">
-                              <div class="rating rateit-small"></div>
-                            </div>
-                          </div>
-                          <!-- /.row -->
-                        </td>
-                        <td class="cart-product-quantity">
-                          <div class="quant-input">
-                            <input type="number" value="1">
-                          </div>
-                        </td>
-                        <td class="cart-product-grand-total">
-                          <span class="cart-grand-total-price">$300.00</span>
-                        </td>
-                        <td class="romove-item"><a href="#" title="cancel" class="icon"><i
-                              class="fa fa-trash-o"></i></a>
-                        </td>
-                        <td>
-                          <button class="btn btn-main">Add to Cart</button>
-                        </td>
-                      </tr>
-
-                    </tbody>
-                    <!-- /tbody -->
-                  </table>
-
+          <div class="col-xl-12">
+            <div class="my-car-title d-flex mb-3 mt-4">
+              <div class="my-cart-number">2</div>
+              <div class="my-cart-order">
+                <h4>Shipping Information</h4>
+              </div>
+            </div>
+            <form>
+              <div class="row">
+                <div class="col-md-6">
+                  <label for="" class="text_gray mt-3">First Name</label>
+                  <input type="text" class="form-control w-100" placeholder="First name">
+                </div>
+                <div class="col-md-6">
+                  <label for="" class="text_gray mt-3">Last Name</label>
+                  <input type="text" class="form-control w-100" placeholder="Last name">
+                </div>
+                <div class="col-md-6">
+                  <label for="" class="text_gray mt-3">Address</label>
+                  <input type="text" class="form-control w-100" placeholder="Nepal">
+                </div>
+                <div class="col-md-6">
+                  <label for="" class="text_gray mt-3">Cite</label>
+                  <input type="text" class="form-control w-100" placeholder="Nepal">
+                </div>
+                <div class="col-md-6">
+                  <label for="" class="text_gray mt-3">Country</label>
+                  <input type="text" class="form-control w-100" placeholder="Nepal">
+                </div>
+                <div class="col-md-6">
+                  <label for="" class="text_gray mt-3">Postal Code</label>
+                  <input type="text" class="form-control w-100" placeholder="5468">
                 </div>
               </div>
-
+            </form>
+          </div>
+          <div class="col-md-12">
+            <div class="my-car-title d-flex mt-5">
+              <div class="my-cart-number">3</div>
+              <div class="my-cart-order">
+                <h4>Payment Information</h4>
+              </div>
             </div>
+            <div class="my-cart-payment">
+              <ul class="mb-0 py-4">
+                <li>
+                  <span class="
+                            d-flex
+                            justify-content-start justify-content-lg-center
+                            align-items-center
+                            ">
+                    <input type="radio">
+                    <h5 class="font-weigth-normal mb-0">
+                      Direct Bank Transfer
+                    </h5>
+                  </span>
+                </li>
+                <li>
+                  <span class="
+                            d-flex
+                            justify-content-start justify-content-lg-center
+                            align-items-center
+                            ">
+                    <input type="radio">
+                    <h5 class="font-weigth-normal mb-0">Khalti</h5>
+                  </span>
+                </li>
+                <li>
+                  <span class="
+                            d-flex
+                            justify-content-start justify-content-lg-center
+                            align-items-center
+                            ">
+                    <input type="radio">
+                    <h5 class="font-weigth-normal mb-0">E-sewa</h5>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="my-car-title d-flex mb-3">
+              <div class="my-cart-number">4</div>
+              <div class="my-cart-order">
+                <h4>Confirm Order</h4>
+              </div>
+            </div>
+            <div class="btn_groups-single large-btn my-5 rounded-0">
+              <button class="btn btn-main">Confirm</button> </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-
-
   <footer class="footer">
     <div class="container">
       <div class="row">
@@ -422,7 +389,6 @@
               Nepal</a>
           </p>
         </div>
-
       </div>
     </div>
   </div>

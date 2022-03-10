@@ -84,14 +84,14 @@ $(".slick_category").slick({
     {
       breakpoint: 1080,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 4,
         slidesToScroll: 1,
       },
     },
     {
       breakpoint: 780,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 1,
       },
     },
@@ -100,14 +100,16 @@ $(".slick_category").slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
+        arrows:false,
         dots: true,
       },
     },
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
+        arrows:false,
         dots: true,
       },
     },

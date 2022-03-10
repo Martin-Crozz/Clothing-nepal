@@ -694,6 +694,10 @@ a.text-primary:hover {
   float: right;
 }
 
+.cart-product-description {
+  font-size: 0.8rem;
+}
+
 .nav-item.dropdown.dropdown-slide:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
@@ -1812,7 +1816,6 @@ a.text-primary:hover {
   background: url("../images/backgrounds/counter.jpg") no-repeat;
   background-size: cover;
   position: relative;
-  height: 70vh;
 }
 
 .ads .content h2 {
@@ -2530,5 +2533,49 @@ table td a.btn {
 }
 
 /* Dashboard New Css Ends*/
+/* Checkout  */
+section#checkout .my-cart-number {
+  background: #FF6A00;
+  color: white;
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+}
+
+section#checkout .my-cart-order h4 {
+  margin: 0;
+  line-height: 4rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+
+section#checkout .text_gray {
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+section#checkout input {
+  width: 57px;
+  color: black;
+}
+
+section#checkout ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+section#checkout .my-car-title {
+  background: #F6F6F6;
+}
+
+section#checkout .checkout-wrapper {
+  box-shadow: 0px 0px 5px 0px #ececec;
+}
+
+/* Checkout  Ends*/
 /* Responsive Start */
 /* Responsive Ends */
