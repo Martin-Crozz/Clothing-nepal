@@ -2578,4 +2578,23 @@ section#checkout .checkout-wrapper {
 
 /* Checkout  Ends*/
 /* Responsive Start */
+@media (max-width: 1080px) {
+  #countdown ul li {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 400px) {
+  .my-cart-payment ul {
+    flex-direction: column;
+  }
+
+  .my-cart-payment ul li {
+    margin-bottom: 10px;
+  }
+}
+
+
 /* Responsive Ends */
