@@ -2127,12 +2127,33 @@ table.shop_table_responsive {
     float: left;
   }
 
+  table.shop_table_responsive tr:last-child td::before {
+    content: "";
+    font-weight: 700;
+    float: left;
+  }
+
   .ads .syotimer-cell {
     margin-bottom: 10px;
   }
 
   .ads {
     background: #eba1ae;
+  }
+
+  .coupon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coupon button {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  section#checkout ul {
+    flex-direction: column;
   }
 }
 
@@ -2551,7 +2572,6 @@ section#checkout .my-cart-order h4 {
   margin-left: 1rem;
 }
 
-
 section#checkout .text_gray {
   font-size: .9rem;
   font-weight: 600;
@@ -2595,6 +2615,5 @@ section#checkout .checkout-wrapper {
     margin-bottom: 10px;
   }
 }
-
 
 /* Responsive Ends */

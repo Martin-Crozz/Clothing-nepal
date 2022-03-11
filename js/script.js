@@ -100,12 +100,21 @@ $(".slick_category").slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
-        arrows:false,
+        arrows:true,
         dots: true,
       },
     },
     {
       breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows:false,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 360,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
