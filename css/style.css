@@ -2678,7 +2678,7 @@ h6.active-item {
 #cart_user input#defaultUnchecked {
   position: absolute;
   top: 54%;
-  left: 2%;
+  left: 4%;
   transform: translate(5%, -60%);
 }
 
@@ -2694,8 +2694,8 @@ h6.active-item {
 #cart_user input#defaultUnchecke {
   position: absolute;
   top: 52%;
-  left: 3%;
-  transform: translate(-3%, -50%);
+  left: 5%;
+  transform: translate(-4%, -50%);
 }
 
 /*************************** search select start  */
